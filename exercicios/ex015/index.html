@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Estilos Externos</title>
+    <title>Cores em CSS</title>
+    <style>h2{ color: white;}</style>
 </head>
 <body>
-    <h1>Capítulo 1</h1>
+    <h1>Cores em CSS</h1>
+    <p>Para entender esse exercício, olhe bem atentamente o código fonte do arquivo.</p>
 
-    <h2>Capítulo 1.1</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nulla totam magni doloribus itaque amet iure quod tempore, temporibus, odio sequi accusantium ex quas aut nihil? Maxime numquam rem quo!</p>
+    <h2 style="background-color:darkblue;">Este título está colorido usando cores por nome</h2>
 
-    <h2>Capítulo 1.2</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nulla totam magni doloribus itaque amet iure quod tempore, temporibus, odio sequi accusantium ex quas aut nihil? Maxime numquam rem quo!</p>
+    <h2 style="background-color:#00008b;">Já este está usando cores pelo código Hexadecimal</h2>
 
-    <h1>Capítulo 2</h1>
+    <h2 style="background-color:rgb(0, 0, 139);">Este outro está colorido usando códigos RGB (red, green, blue)</h2>
 
-    <h2>Capítulo 2.1</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat nulla totam magni doloribus itaque amet iure quod tempore, temporibus, odio sequi accusantium ex quas aut nihil? Maxime numquam rem quo!</p>
-    
-    <p style="text-align:right;"><a href="index2.html" target="_self" rel="next">Ir para a página 2</a></p>
+    <h2 style="background-color: hsl(240, 100%, 27%);">Este outro aqui está usando códigos HSL (hue, saturation, light)</h2>
+
+    <p>As cores resultantes são exatamente as mesmas, mas o formato de representação muda conforme o padrão escolhido.</p>
+    <p>Também é possível usar transparência, usando o formato RGBA (red, green, blue, alpha)</p>
+
+    <h2 style="background-color: rgba(0, 0, 139, 0.5);">Nesse título, o fundo azul teve sua transparência configurada para 50%</h2>
 </body>
 </html>

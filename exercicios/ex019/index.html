@@ -4,56 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes CSS</title>
+    <title>Alinhamentos com CSS</title>
     <style>
+
         body {
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
         }
 
-        mark{
-            background-color: yellow;
+        #p2 {
+            text-align: right;
         }
 
-        p {
-            text-indent: 25px;
-            text-align: justify;
-        }
-
-        h2 {
-            font-size: 20px;
-        }
-
-        #segundo {
-            font-size: 25px;
-        }
-
-        #center {
+        #p3 {
             text-align: center;
         }
 
-        p.mark {
-            background-color: yellow;
+        #p4 {
+            text-align: justify;
         }
     </style>
 </head>
 <body>
-    <h1>Classes em CSS</h1>
-    <p>Para evitar o stress do último exercício, onde tive que ficar inventando textos, vou pegar aqui um texto que foi copiado de um site de notícias 😅</p>
-
-    <h1 id="segundo">Amazon lança sua própria distribuição Linux</h1>
-    <p>A gigante de comércio Amazon surpreende mais uma vez e lança uma distribuição Linux própria. O novo sistema operacional de código aberto é chamado Bottlerocket. Porém, muita calma nessa hora. Antes de se empolgar com a distro e tentar fazer a instalação você precisa saber que ela não funciona da mesma forma que outras ‘normais’ como Ubuntu, Debian ou Fedora.</p>
-    
-    <h2>Conheça a Bottlerocket: distribuição Linux da Amazon para execução de contêineres</h2>
-    <p>Muita coisa mudou no setor de TI desde que o termo computação em nuvem foi cunhado pela primeira vez. Demora alguns segundos para implantar um servidor Linux (geralmente executando em uma VM), graças a provedores de servidores em nuvem como Amazon AWS, Google, Linode, Digital Ocean etc. Além disso, você pode implantar aplicativos e serviços nesses servidores na forma de recipientes graças a ferramentas como Docker e Kubernetes.</p>
-    <p>Muita coisa mudou no setor de TI desde que o termo computação em nuvem foi cunhado pela primeira vez. Demora alguns segundos para implantar um servidor Linux (geralmente executando em uma VM), graças a provedores de servidores em nuvem como Amazon AWS, Google, Linode, Digital Ocean etc. Além disso, você pode implantar aplicativos e serviços nesses servidores na forma de recipientes graças a ferramentas como Docker e Kubernetes.</p>
-
-    <h2>Recursos do Bottlerocket Linux</h2>
-    <p class="mark">Nenhuma atualização pacote por pacote. O procedimento tradicional de uma distribuição Linux é composto pela atualização de pacotes individuais. Bottlerocket usa atualizações baseadas em imagem. Graças a essa abordagem, conflitos e quebras são evitados com a possibilidade de uma reversão rápida e completa (se necessário). Sistema de arquivos somente leitura. O Bottlerocket também usa um sistema de arquivos somente leitura. Sua integridade é verificada no momento da inicialização via dm-verity. Para medidas de segurança adicionais, o acesso SSH também é desencorajado e só está disponível através do contêiner de administrador (mecanismo adicional).</p>
-
-    <h2>Atualizações automatizadas</h2>
-    <p id="center" class="mark">Você pode automatizar as atualizações do Bottlerocket usando um serviço de orquestração como o Amazon EKS. A Amazon também afirma que incluir apenas o software essencial para executar contêineres reduz o número de ataques em comparação com as distribuições Linux de uso geral.</p>
-
-    <h2>O que você acha?</h2>
-    <p>A Amazon não é a primeira a criar um ‘Linux específico para contêineres’. O CoreOS foi uma das primeiras distribuições desse tipo. O CoreOS foi adquirido pela Red Hat, que foi vendida para a IBM. A Red Hat recentemente interrompeu o CoreOS e o substituiu pelo Fedora CoreOS. O servidor em nuvem é uma grande indústria que continuará a crescer. Um gigante como a Amazon fará de tudo para ficar à par ou à frente de seus concorrentes. Na minha opinião, Bottlerocket é uma resposta para (agora) o Fedora CoreOS da IBM. Embora os repositórios Bottlerocket estejam disponíveis no GitHub , ainda não é possível achar um pronto para criar imagens. No momento, ele está disponível apenas como uma prévia na AWS.</p>
+    <h1>Alinhamento de textos usando CSS</h1>
+    <p>Este primeiro parágrafo terá o alinhamento padrão, à esquerda.</p>
+    <p id="p2">O segundo parágrafo ficará alinhado à direita.</p>
+    <p id="p3">O terceiro parágrafo terá alinhamento centralizado.</p>
+    <p id="p4">O último parágrafo terá o alinhamento justificado. Para que você perceba isso, terei que colocar um texto um pouco maior. Caso você não perceba que o alinhamento está sendo feito nas duas laterais, tente diminuir um pouco o tamanho do seu navegador. Esse tipo de alinhamento é bastante utilizado para textos longos e grandes parágrafos, para dar uma sensação de simetria. Agora eu já não sei mais o que escrever, mas vou continuar para que seu texto fique grande o suficiente para que você possa ver o alinhamento justificado. Nunca pensei que seria tão difícil ficar escrevendo coisas sem sentido só para que uma explicação faça um sentido mínimo. Já chega, pra mim já deu! Espero que você tenha conseguido entender.</p>
 </body>
 </html>

@@ -3,13 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamentos com CSS</title>
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+        @font-face {
+            font-family: 'Minha Fonte';
+            src: url('littlebird.ttf');
+        }
+        body {
+            font-size: 15pt;
+        }
+
+        h2 {
+            font-weight: normal; /* serve para tirar o negrito dos títulos */
+        }
+
+        h2#padrao {
+            font-family: Arial, Helvetica, sans-serif; /* O navegador vai tentar carregar a primeira, se não funcionar, passa pra próxima */
+        }
+
+        h2#google {
+            font-family: 'Pacifico', cursive; /* A importação dessa fonte aconteceu na linha 8 */
+        }
+
+        h2#local {
+            font-family: 'Minha Fonte', sans-serif; /* Fonte local importada da linha 9 até 12 */
+        }
+    </style>
 </head>
-<body style="font: 14pt Arial;">
-    <h1>Alinhamento de textos usando CSS</h1>
-    <p style="text-align: left;">Este primeiro parágrafo terá o alinhamento padrão, à esquerda.</p>
-    <p style="text-align: right;">O segundo parágrafo ficará alinhado à direita.</p>
-    <p style="text-align: center;">O terceiro parágrafo terá alinhamento centralizado.</p>
-    <p style="text-align: justify;">O último parágrafo terá o alinhamento justificado. Para que você perceba isso, terei que colocar um texto um pouco maior. Caso você não perceba que o alinhamento está sendo feito nas duas laterais, tente diminuir um pouco o tamanho do seu navegador. Esse tipo de alinhamento é bastante utilizado para textos longos e grandes parágrafos, para dar uma sensação de simetria. Agora eu já não sei mais o que escrever, mas vou continuar para que seu texto fique grande o suficiente para que você possa ver o alinhamento justificado. Nunca pensei que seria tão difícil ficar escrevendo coisas sem sentido só pra que uma explicação faça um sentido mínimo. Já chega, pra mim já deu! Espero que você tenha conseguido entender. </p>
+<body>
+    <h1>Fontes em CSS</h1>
+    <h2 id="padrao">Podemos configurar fontes padrão do sistema</h2>
+    <h2 id="google">Ou então usar uma fonte do Google Fonts</h2>
+    <h2 id="local">Ou ainda usar um arquivo local de fontes</h2>
 </body>
 </html>

@@ -7,15 +7,23 @@
     <title>Fundo</title>
     <style>
         body {
-            background-color: black;
             height: 100vh;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-attachment: fixed;
             margin-top: 0px;
             margin-bottom: 0px;
+            
+            /* background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+            Shorthand: color > image > position > repeat > [size] > attachment 
+            
+            [size] não está funcionando*/
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
@@ -28,6 +36,8 @@
             margin-top: 0px;
             margin-bottom: 0px;
             padding: 10px 20px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
         }
     </style>
 </head>

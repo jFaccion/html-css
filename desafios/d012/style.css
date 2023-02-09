@@ -51,7 +51,7 @@ header > p {
 }
 
 #p1 {
-    background-image: url(imagens/background001.jpg);
+    background-image: url(pacote-d012/imagens/background001.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +59,7 @@ header > p {
 }
 
 #p2 {
-    background-image: url(imagens/background002.jpg);
+    background-image: url(pacote-d012/imagens/background002.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;

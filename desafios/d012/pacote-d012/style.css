@@ -36,15 +36,18 @@ header > p {
 }
 
 .parallax {
+    padding: 80px 20px;
+    height: 100%;
+    width: 100%;
     color: white;
     font-size: 4vw;
+    box-shadow: inset 7px 7px 15px rgba(0, 0, 0, 0.527);
 }
 
 .parallax > p {
-    width: 500px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.418);
-    margin: 0px 10px 0px 10px;
-    padding: 130px 20px;
+    width: 50%;
 }
 
 #p1 {

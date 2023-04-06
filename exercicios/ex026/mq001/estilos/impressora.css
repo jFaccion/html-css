@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    margin: 100px 50px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+main::after {
+    font-size: 0.7em;
+    content: "Este artigo foi impresso através do site jfaccion.github.io/html-css";
+}

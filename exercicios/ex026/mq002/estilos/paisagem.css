@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Configurações de paisagem (landscape) */
+
+h1 {
+    orientation: landscape;
+}

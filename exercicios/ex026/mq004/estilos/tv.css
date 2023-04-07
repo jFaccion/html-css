@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background: url(../imagens/back-tv.jpg) no-repeat left center fixed;
-    background-size: cover;
+    background-image: url(../imagens/back-tv.jpg);
 }
 
 #phone {display: none;}

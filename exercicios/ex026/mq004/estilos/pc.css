@@ -5,10 +5,6 @@ body {
     background-size: cover;
 }
 
-#phone {
-    display: none;
-}
-
-#printer {
-    display: none;
-}
+#phone {display: none;}
+#pc {display: block;}
+#printer {display: none;}

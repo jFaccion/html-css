@@ -4,10 +4,6 @@ body {
     background-image: url(../imagens/back-print.jpg);
 }
 
-#phone {
-    display: none;
-}
-
-#pc {
-    display: none;
-}
+#phone {display: none;}
+#pc {display: none;}
+#printer {display: block;}

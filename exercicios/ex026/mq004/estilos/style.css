@@ -5,6 +5,12 @@
     padding: 0px;
 }
 
+body {
+    background: url(../imagens/back-phone.jpg) no-repeat top center fixed
+    ;
+    background-size: cover;
+}
+
 main {
     position: relative;
     width: 400px;
@@ -29,3 +35,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#phone {display: block;}
+#pc {display: none;}
+#printer {display: none;}

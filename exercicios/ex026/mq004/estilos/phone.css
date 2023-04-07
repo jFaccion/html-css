@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background: url(../imagens/back-phone.jpg) no-repeat top center fixed
+    ;
+    background-size: cover;
+}
+
+#pc {
+    display: none;
+}
+
+#printer {
+    display: none;
+}

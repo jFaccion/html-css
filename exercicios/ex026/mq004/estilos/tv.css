@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 body {
-    background: url(../imagens/back-pc.jpg) no-repeat top center fixed;
+    background: url(../imagens/back-tv.jpg) no-repeat left center fixed;
     background-size: cover;
 }
 
 #phone {display: none;}
 #tablet {display: none;}
-#pc {display: block;}
-#tv {display: none;}
+#pc {display: none;}
+#tv {display: block;}
 #printer {display: none;}

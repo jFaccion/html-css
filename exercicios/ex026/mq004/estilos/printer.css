@@ -5,5 +5,7 @@ body {
 }
 
 #phone {display: none;}
+#tablet {display: none;}
 #pc {display: none;}
+#tv {display: none;}
 #printer {display: block;}

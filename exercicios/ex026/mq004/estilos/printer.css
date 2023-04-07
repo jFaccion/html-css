@@ -1,7 +1,28 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(../imagens/back-print.jpg);
+    background-image: url(../imagens/back-print.jpg); /*não funciona*/
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+    color: black;
+}
+
+main {
+    width: 90%;
+    border: 2px solid black;
+}
+
+main > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+    color: black;
+}
+
+body::after {
+    position: absolute;
+    top: 90%;
+    content: 'Este site foi impresso no site jfaccion.github.io/html-css';
+    text-decoration: overline;
 }
 
 #phone {display: none;}

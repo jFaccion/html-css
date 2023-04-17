@@ -17,8 +17,21 @@ header > h1 {
     color: rgb(82, 82, 82);
 }
 
+div {
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+div:hover {
+    background-color: white;
+    color: black;
+}
+
 menu {
-    display: block;
+    display: none;
     background-color: gray;
     text-align: center;
 }

@@ -23,7 +23,7 @@ div {
 
 menu {
     display: block;
-    background-color: gray;
+    background-color: rgb(187, 187, 187);
     text-align: justify;
 }
 
@@ -44,7 +44,7 @@ main > article {
     margin: auto;
     margin-top: 10px;
     padding: 10px;
-    width: 90vw;
+    width: 768px;
     background-color: white;
     border-radius: 10px;
 }
